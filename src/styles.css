@@ -1,1 +1,144 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~primeng/resources/primeng.min.css';
+@import '~primeng/resources/themes/md-light-indigo/theme.css';
+@import '~primeicons/primeicons.css';
+
+.my-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #1A3A68 !important;
+  color: rgb(255 255 255 / 90%);
+  border-radius: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Alinea el nombre de usuario a la derecha */
+}
+
+.toggle-button {
+  background-color: #1A3A68;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.toggle-button i {
+  margin-left: 5px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  background-color: #1A3A68;
+}
+
+.sidebar-menu .p-menuitem-link {
+  color: #1A3A68;
+}
+
+.sidebar-menu .p-menuitem-link:hover {
+  background-color: #1A3A68;
+}
+
+/* menu de afuera*/
+
+.p-menubar {
+    padding: 0rem;
+    background: #1A3A68;
+    color: #ffffff;
+    border:  #060606 !important;
+    border-radius: 4px;
+}
+
+.user-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.user-name-menu-item {
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: white;
+}
+
+.user-image-menu-item {
+  margin-right: 67rem;
+  color: white;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+/* menu de adentro*/
+
+.p-menu {
+    padding: 0.5rem 0;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.87);
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 12.5rem;
+}
+
+
+.p-panelmenu .p-panelmenu-header > a {
+    padding: 1.3rem;
+    border: 0 none;
+    color: rgba(0, 0, 0, 0.87);
+    background: #ffffff;
+    font-weight: 100;
+    border-radius: 4px;
+    transition: none;
+}
+
+.p-component, .p-component * {
+    box-sizing: content-box;
+    border: none;
+}
